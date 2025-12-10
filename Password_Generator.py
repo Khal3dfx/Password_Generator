@@ -20,7 +20,7 @@ platform = input("This password is labeled for: ")
 
 while True:
     os.system('cls' if os.name == 'nt' else 'clear')
-    length = input("Enter a number: ")
+    length = input("Enter a length of the password (Number): ")
 
     if length.isdigit():
         length = int(length)
